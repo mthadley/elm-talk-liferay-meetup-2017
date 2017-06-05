@@ -287,7 +287,7 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide bgColor="quartenary" notes={`
-          * Can anyone guess what this is reffering to?<br>
+          * Can anyone guess what this is referring to?<br>
           * Tony Hare the addition of null references to ALGOL in 1965
         `}>
           <BlockQuote>
@@ -336,7 +336,7 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide notes={`
-          * Quick explanation of type definiion<br>
+          * Quick explanation of type definition<br>
           * The <code>a</code> is just a generic. Can fill it in later with anything.
         `}>
           <Text textColor="secondary" margin="0 0 80px 0">Elm does not have the concept of <Code>null</Code> or <Code>undefined</Code>. Instead we use a <B>Union Type</B> called <Code>Maybe</Code></Text>
@@ -391,7 +391,7 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide notes={`
-          * We've seen some Untion Types already.<br>
+          * We've seen some Union Types already.<br>
           * Booleans are defined as union types in Elm.<br>
           * What is a state machine? It's a machine that is configured to be in one of many states.
         `}>
@@ -544,7 +544,7 @@ export default class Presentation extends React.Component {
 
           <List>
             <ListItem><Link href="https://www.youtube.com/watch?v=oYk8CKH7OhE">Let's be mainstream</Link></ListItem>
-            <ListItem><Link href="http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html">How Elm slays a UI Anitpattern</Link></ListItem>
+            <ListItem><Link href="http://blog.jenkster.com/2016/06/how-elm-slays-a-ui-antipattern.html">How Elm slays a UI Antipattern</Link></ListItem>
             <ListItem><Link href="https://www.youtube.com/watch?v=IcgmSRJHu_8">Making impossible states impossible</Link></ListItem>
           </List>
         </Slide>
