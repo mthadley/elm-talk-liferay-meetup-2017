@@ -1,0 +1,16 @@
+/* Assigning to an Index */
+const numbers = [1, 2, 3];
+numbers[1] = 26;
+assert.deepEqual(numbers, [1, 26, 3]);
+
+/* Mutating an Oject */
+const user = {
+  name: 'Foo'
+};
+user.name = 'Bar';
+assert.equal(user.name, "Bar");
+
+/* Side effects via forEach */
+const newNumbers = [];
+numbers.forEach(number => newNumbers.push(number * 2));
+assert.deepEqual(numbers, [2, 52, 6]);

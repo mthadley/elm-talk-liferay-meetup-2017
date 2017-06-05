@@ -1,0 +1,22 @@
+-- MISSING PATTERNS ------------------------------------------------------------
+
+This `case` does not have branches for all possibilities.
+
+32|>    case user of
+33|>        Loading ->
+34|>            div [] [ text "Loading..." ]
+35|>
+36|>        Done user ->
+37|>            h1 [] [ text user.name ]
+
+You need to account for the following values:
+
+    Main.Error _
+
+Add a branch to cover this pattern!
+
+If you are seeing this error for the first time, check out these hints:
+
+The recommendations about wildcard patterns and `Debug.crash` are important!
+
+Detected errors in 1 module.

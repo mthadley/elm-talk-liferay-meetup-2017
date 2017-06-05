@@ -1,0 +1,7 @@
+user does not have a field named name.
+
+The type of user is:
+
+Maybe { name : String, id : Int }
+
+Which does not contain a field named name.
